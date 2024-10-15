@@ -1,0 +1,97 @@
+/* Products.css */
+
+.product-page {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.product-page .products-container {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.product-page .products-container h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-page .product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-page .product-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.product-page .product-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.product-page .product-form button:hover {
+  background-color: #0056b3;
+}
+
+.product-page .product-list {
+  margin-top: 20px;
+}
+
+.product-page .product-list h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.product-page .product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-page .product-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.product-page .product-list li:last-child {
+  border-bottom: none;
+}
+
+.product-page .no-pro {
+  color: #666;
+  font-size: 1rem;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.logout-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
